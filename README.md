@@ -163,3 +163,36 @@ Researchers and practitioners in:
 
 Research code only.  
 Not certified for safety-critical deployment.
+---
+
+## 10. Google Colab Notebook
+
+A companion **Google Colab notebook** is provided to reproduce key figures, indicators, and analysis from the paper without requiring local setup.
+
+**Notebook:** `GOOSC_VASH_PAPER_FIGURES.ipynb`
+
+### What the notebook demonstrates
+- Loading and preprocessing oscillatory vibration signals  
+- Computing classical vibration indicators (RMS, kurtosis, spectral features)  
+- Computing **GO-OSC / VASH geometric indicators** (PCC, GSI, FWR, DDI, MLL, LQF)  
+- Visualizing early degradation effects where energy-based metrics fail  
+- Reproducing representative plots and figures used in the paper  
+
+### Intended use
+The notebook is designed for:
+- reviewers and readers of the paper,
+- rapid experimentation and inspection of indicators,
+- educational and presentation purposes.
+
+It runs entirely on **CPU** in Google Colab and installs only lightweight dependencies.
+
+### Typical workflow in Colab
+1. Open the notebook in Google Colab  
+2. Run the setup cell to install dependencies  
+3. Execute cells sequentially to reproduce figures and indicator trends  
+4. Modify signal sources or parameters to explore sensitivity  
+
+No training is required; the notebook focuses on **analysis and interpretation**, not model fitting.
+
+---
+
